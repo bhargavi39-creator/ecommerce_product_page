@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products" class="product-section">
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://res.cloudinary.com/dvz5gay3y/image/upload/v1717679055/product5_xk3l4q.jpg" alt="Product 1 Image">
+                <h2>sparx</h2>
+                <p class="description"> Combining style and comfort for everyday wear.</p>
+                <p class="price">Price: ₹999</p>
+                <div class="buttons">
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                    <button onclick="learnMore('Product Name 1')">Learn More</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Black_Converse_sneakers.JPG" alt="Product 2 Image">
+                <h2>Nike</h2>
+                <p class="description">Engineered for performance and designed for style.</p>
+                <p class="price">Price: ₹1,199</p>
+                <div class="buttons">
+                    <button onclick="addToCart('Product Name 2')">Add to Cart</button>
+                    <button onclick="learnMore('Product Name 2')">Learn More</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://res.cloudinary.com/dvz5gay3y/image/upload/v1717679056/product6_c3xfyb.webp" alt="Product 3 Image">
+                <h2>Puma</h2>
+                <p class="description">Blending innovation with bold, athletic style.</p>
+                <p class="price">Price: ₹899</p>
+                <div class="buttons">
+                    <button onclick="addToCart('Product Name 3')">Add to Cart</button>
+                    <button onclick="learnMore('Product Name 3')">Learn More</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://wallpapercave.com/wp/wp2896922.jpg" alt="Product 4 Image">
+                <h2>Adidas</h2>
+                <p class="description">Uniting cutting-edge technology with iconic design.</p>
+                <p class="price">Price: ₹999</p>
+                <div class="buttons">
+                    <button onclick="addToCart('Product Name 4')">Add to Cart</button>
+                    <button onclick="learnMore('Product Name 4')">Learn More</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://res.cloudinary.com/dvz5gay3y/image/upload/v1717679054/product2_adsyrp.jpg" alt="Product 5 Image">
+                <h2>Kraasa</h2>
+                <p class="description">Stylish, durable, and perfect for everyday adventures.</p>
+                <p class="price">Price: ₹1,299</p>
+                <div class="buttons">
+                    <button onclick="addToCart('Product Name 5')">Add to Cart</button>
+                    <button onclick="learnMore('Product Name 5')">Learn More</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://res.cloudinary.com/dvz5gay3y/image/upload/v1717679056/product3_u4lbro.jpg" alt="Product 6 Image">
+                <h2>Asian</h2>
+                <p class="description">Affordable comfort and trendy designs for every step.</p>
+                <p class="price">Price: ₹799</p>
+                <div class="buttons">
+                    <button onclick="addToCart('Product Name 6')">Add to Cart</button>
+                    <button onclick="learnMore('Product Name 6')">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 E-commerce Website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
